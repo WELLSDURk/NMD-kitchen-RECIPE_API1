@@ -2,21 +2,21 @@
 
 A professional backend RESTful API for managing a digital cookbook, built by **TATA MOdepet**. This project follows a 3-tier architecture (Routes, Controllers, Services) and uses MongoDB for robust data management.
 
-## 🚀 Features
+## Features
 - **Full CRUD operations** for recipes.
 - **Categorized Search**: Filter recipes by category.
 - **Automatic Seeding**: Includes a local Cameroonian **Ndole** recipe on first run.
 - **Data Validation**: Enforced at both the service and schema levels.
 - **Polished UI**: Built with React, Tailwind CSS, and Framer Motion.
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Runtime**: Node.js (v20+)
 - **Framework**: Express + React (Vite)
 - **Database**: MongoDB (Atlas recommended)
 - **Styling**: Tailwind CSS 4.0
 - **Animations**: Motion (fka Framer Motion)
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository** (if applicable) or copy the files.
 2. **Install dependencies**:
@@ -35,17 +35,17 @@ A professional backend RESTful API for managing a digital cookbook, built by **T
 5. **Open in Browser**:
    Navigate to `http://localhost:3000`
 
-## 🏗 Project Structure
+##  Project Structure
 - `server.ts`: Entry point for backend and Vite middleware.
 - `src/server/`: Backend logic (Routes, Controllers, Services, Models).
 - `src/App.tsx`: Main React frontend.
 - `src/server/db.ts`: Database connection and seeding logic.
 
-## 📋 API Endpoints
+## API Endpoints
 - `GET /api/recipes`: List all recipes (optional `?category=...`).
 - `POST /api/recipes`: Create a new recipe.
 - `PATCH /api/recipes/:id`: Update a recipe.
 - `DELETE /api/recipes/:id`: Delete a recipe.
 
 ---
-Developed with ❤️ by **TATA MOdepet**
+Developed with  by **TATA Mordepet**
