@@ -1,0 +1,8 @@
+{
+  "name": "The Global Kitchen API",
+  "description": "A backend RESTful API for managing a digital cookbook, built with Node.js, Express, and MongoDB by TATA MOdepet.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
